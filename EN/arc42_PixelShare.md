@@ -108,7 +108,7 @@ PixelShare is documented as a system that interacts with mobile users, administr
 
 ## 3.1 Business Context
 
-![Business Context Diagram](images/business_context.png){width=100%}
+![Business Context Diagram](images/business_context.png)
 
 | Communication Partner     | Input to PixelShare                                                                                                    | Output from PixelShare                                                                          |
 | ------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
@@ -150,7 +150,7 @@ The building block view shows the static decomposition of PixelShare. It uses th
 
 ## 5.1 Level 1 - Whitebox Overall System
 
-![Building Block Level 1](images/bb_level1.png){width=100%}
+![Building Block Level 1](images/bb_level1.png)
 
 **Motivation**  
 Level 1 shows the main building blocks of PixelShare and the most important external systems. This view is intentionally abstract, so that non-technical stakeholders can understand the overall system without implementation details.
@@ -168,7 +168,7 @@ Level 1 shows the main building blocks of PixelShare and the most important exte
 
 ## 5.2 Level 2 - Whitebox Backend Monolith
 
-![Building Block Level 2](images/bb_level2.png){width=100%}
+![Building Block Level 2](images/bb_level2.png)
 
 **Motivation**  
 Level 2 decomposes the backend monolith into layers and modules. The backend remains one deployable unit, but the internal structure separates API handling, business logic, data access, security validation and external adapters.
@@ -189,7 +189,7 @@ Dependencies flow from API to business logic and from business logic to data acc
 
 ## 5.3 Level 3 - Whitebox Image Module
 
-![Building Block Level 3](images/bb_level3.png){width=100%}
+![Building Block Level 3](images/bb_level3.png)
 
 **Motivation**  
 Level 3 zooms into the core domain of PixelShare: image upload, editing and publication. This area is architecturally important because it directly supports the main business value of the app.
@@ -212,7 +212,7 @@ The runtime view documents two architecturally relevant scenarios: image upload/
 
 ## 6.1 Runtime Scenario 1 - Upload and Publish Image
 
-![Runtime Scenario 1](images/runtime_upload_publish.png){width=100%}
+![Runtime Scenario 1](images/runtime_upload_publish.png)
 
 **Description**
 
@@ -234,7 +234,7 @@ The runtime view documents two architecturally relevant scenarios: image upload/
 
 ## 6.2 Runtime Scenario 2 - Edit and Save Image with Pixlr
 
-![Runtime Scenario 2](images/runtime_pixlr_edit.png){width=100%}
+![Runtime Scenario 2](images/runtime_pixlr_edit.png)
 
 **Description**
 
@@ -259,7 +259,7 @@ The runtime view documents two architecturally relevant scenarios: image upload/
 
 ## 7.1 Infrastructure Level 1
 
-![Deployment Diagram](images/deployment.png){width=100%}
+![Deployment Diagram](images/deployment.png)
 
 **Motivation**  
 The deployment view maps software building blocks to infrastructure elements. PixelShare uses a cloud-based production environment to support global mobile access, scalable image delivery, secure secrets management and repeatable deployments.
@@ -429,7 +429,7 @@ Backend deployment, database connection, Pixlr API credentials, payment credenti
 
 ## 10.1 Quality Tree
 
-![Deployment Diagram](images/quality-tree.png){width=100%}
+![Deployment Diagram](images/quality-tree.png)
 
 ## 10.2 Quality Scenarios
 
