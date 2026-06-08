@@ -1,7 +1,8 @@
 ---
 title: "arc42 Architecture Documentation - PixelShare"
-author: "PixelShare Startup Team"
-date: "2026-06-07"
+author: "PixelShare"
+members: Hassani Danial, Kurtaj Endrit, Merza Ashour
+date: "2026-06-08"
 version: "1.0"
 ---
 
@@ -18,7 +19,7 @@ This document describes the software architecture of PixelShare using the arc42 
 
 | Item                      | Value                                                                                                      |
 | ------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| Team                      | PixelShare Startup Team                                                                                    |
+| Team                      | PixelShare                                                                                                 |
 | Version                   | 1.0                                                                                                        |
 | Status                    | Completed draft for review                                                                                 |
 | Main architecture drivers | Fast MVP delivery, performance for images, security/privacy, maintainability                               |
